@@ -8,7 +8,7 @@ int main()
     printf(" Input any positive number : ");
     scanf("%d",&n);
     i = n/2;
-    primeN = prime(n);//call the function checkForPrime
+    primeN = prime(n);
    if(primeN==1)
         printf(" The number %d is a prime number. \n\n",n);
    else
